@@ -1,0 +1,2 @@
+REM https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/gpu-acceleration
+docker run --isolation process --device class/5B45201D-F2F2-4F3B-85BB-30FF1F953599 mcr.microsoft.com/windows:1809

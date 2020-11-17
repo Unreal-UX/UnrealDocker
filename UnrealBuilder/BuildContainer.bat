@@ -1,0 +1,1 @@
+docker build ./24/. -t
