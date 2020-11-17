@@ -1,1 +1,3 @@
-docker build ./24/. -t -m 16GB .
+
+REM cmd ver
+docker build -f ./24/Dockerfile -t unrealbuilder:20H2alpha -m 16GB .
