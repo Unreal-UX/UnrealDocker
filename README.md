@@ -32,3 +32,8 @@ for more info see https://github.com/MicrosoftDocs/Virtualization-Documentation/
     - https://docs.microsoft.com/en-us/visualstudio/containers/overview?view=vs-2019
 - https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-developer-pack-offline-installer
 - https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+
+# Find dlls missing from docker image
+
+- https://docs.microsoft.com/en-us/sysinternals/downloads/listdlls
+- https://docs.microsoft.com/en-us/gaming/playfab/features/multiplayer/servers/determining-required-dlls#determine-required-dlls
