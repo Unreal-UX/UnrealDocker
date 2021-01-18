@@ -20,10 +20,7 @@ RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --add Microsoft.VisualStudio.Workload.MSBuildTools `
     --add Microsoft.VisualStudio.Workload.VCTools `
     --add Microsoft.VisualStudio.Workload.NetCoreBuildTools `
-    --add  `
-    --add `
-    --add 
-    --remove Microsoft.VisualStudio.Component.Windows81SDK `
+    --add Microsoft.VisualStudio.Component.VC.14.20.CLI.Support `
  || IF "%ERRORLEVEL%"=="3010" EXIT 0
 
 # Define the entry point for the docker container.
