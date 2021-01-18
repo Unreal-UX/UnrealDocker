@@ -15,10 +15,14 @@ ADD https://aka.ms/vs/16/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
 # https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2019
 RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --installPath C:\BuildTools `
-    --add Microsoft.VisualStudio.Workload.AzureBuildTools `
+    --add Microsoft.VisualStudio.Workload.UniversalBuildTools `
     --add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools `
     --add Microsoft.VisualStudio.Workload.MSBuildTools `
     --add Microsoft.VisualStudio.Workload.VCTools `
+    --add Microsoft.VisualStudio.Workload.NetCoreBuildTools `
+    --add  `
+    --add `
+    --add 
     --remove Microsoft.VisualStudio.Component.Windows81SDK `
  || IF "%ERRORLEVEL%"=="3010" EXIT 0
 
