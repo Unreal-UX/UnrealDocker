@@ -30,6 +30,7 @@ for more info see https://github.com/MicrosoftDocs/Virtualization-Documentation/
 # Visual Studio Tools
 - https://docs.microsoft.com/en-us/visualstudio/install/build-tools-container?view=vs-2019
     - https://docs.microsoft.com/en-us/visualstudio/containers/overview?view=vs-2019
+    - https://docs.unrealengine.com/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/index.html
 - https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-developer-pack-offline-installer
 - https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
 
