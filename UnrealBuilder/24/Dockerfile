@@ -23,6 +23,14 @@ RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --add Microsoft.VisualStudio.Component.VC.14.20.CLI.Support `
  || IF "%ERRORLEVEL%"=="3010" EXIT 0
 
+ADD https://go.microsoft.com/fwlink/?linkid=2099466 C:\TEMP\DotNet462Install.exe
+
+RUN C:\TEMP\DotNet462Install.exe /q /norestart
+
+ADD https://go.microsoft.com/fwlink/p/?linkid=2120843 C:\TEMP\Win10SDK.exe
+
+RUN C:\TEMP\Win10SDK.exe /quiet 
+
 # Define the entry point for the docker container.
 # This entry point starts the developer command prompt and launches the PowerShell shell.
 ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
